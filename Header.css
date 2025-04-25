@@ -33,7 +33,9 @@ header {
     margin-right: 4%;
 }
 
-
+.nav-item{
+    color:grey;
+}
 .nav_bar {
     display: flex;
     min-width: 500px;
@@ -41,14 +43,14 @@ header {
     position: relative;
 }
 .nav-label{
-  
+    color: grey;
     cursor: pointer;
 }
 .nav_bar a {
 
     font-size: 14px;
     letter-spacing: .3px;
-
+    color: grey;
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
