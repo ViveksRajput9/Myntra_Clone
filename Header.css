@@ -138,6 +138,7 @@ ul {
     width: 30%;
     display: flex;
     align-items: center;
+    border-radius: 10px;
 }
 
 .search_icon {
@@ -160,6 +161,11 @@ ul {
     border: none;
     border-radius: 0 4px 4px 0;
 }
+.search_input:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
 .search_input::selection{
  border:none;
 }
@@ -167,6 +173,7 @@ ul {
 .action_bar {
     display: flex;
     min-width: 200px;
+    border-radius: 10px;
     justify-content: space-evenly;
 }
 
@@ -175,5 +182,3 @@ ul {
     flex-direction: column;
     align-items: center;
 }
-
-
